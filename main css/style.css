@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: serif;
+}
+
+.color {
+  background-color: #0f2757 !important;
+}
+
+.ac {
+  transition: all 0.2s;
+}
+
+.ac:hover,
+.ac:active {
+  color: rgb(196, 196, 196) !important;
+}
+
+#hero {
+  min-height: 70vh;
+}
+
+.bcs {
+  background-color: rgb(233, 232, 232);
+}
+
+.card {
+  border-radius: 0 !important;
+  border: none;
+}
+
+.categories-no-border {
+  height: 100px;
+  line-height: 50px;
+  text-align: center;
+  box-shadow: 4px 4px 10px rgba(134, 134, 134, 0.4);
+}
+
+.categories {
+  font-size: 13px;
+  text-decoration: none;
+  color: #0b263f !important;
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+}
+
+.reviews-no-border {
+  height: 100%;
+  text-align: left;
+  box-shadow: 4px 4px 10px rgba(134, 134, 134, 0.4);
+  color: #000;
+}
+
+.card-body h6,
+p {
+  font-size: 0.5rem;
+}
+
+.review-link {
+  text-decoration: none !important;
+}
+
+.size {
+  font-size: 0.5rem;
+  color: #0de777;
+}
+
+.sc {
+  color: rgb(224, 224, 224);
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none !important;
+  transition: all 0.1s;
+}
+
+.bs {
+  width: 30vw !important;
+}
+.bc {
+  background-color: #fff;
+}
+
+.bc:hover {
+  background-color: #ff002b;
+  color: #fff;
+}
+
+.bps {
+  font-weight: 800;
+}
+
+.light {
+  color: #dbd9d9;
+  border-bottom: 0.1rem solid #eeeeee;
+}
+
+.text {
+  color: #858585;
+}
+
+.acl {
+  list-style: none;
+  text-decoration: none !important;
+  color: #000;
+}
+
+.no-border {
+  border: none;
+  border-radius: 0;
+}
+
+.box-shadow {
+  box-shadow: 0px 0px 10px rgba(182, 182, 182, 0.4);
+}
+
+.d:hover {
+  background: none !important;
+}
+
+@media (max-width: 460.8px) {
+  .respond {
+    font-size: 2.1rem;
+  }
+}
